@@ -1,0 +1,10 @@
+canvas{
+    border:5px solid rgb(82, 28, 209);
+    animation-name: examples;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes examples{
+    from{box-shadow: 5px 5px 20px rgb(116, 55, 236);}
+    to{box-shadow: 5px 5px 20px rgb(248, 11, 149);}
+}
